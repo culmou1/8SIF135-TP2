@@ -33,6 +33,27 @@ def check_intervalle(entier):
 	else: 
 		return entier
 
+def check_intervalle_minimum(entier):
+    # Regarde si la String est plus petite que 33
+    if(entier < 33):
+        newEntier = (entier+89) - 33
+        return newEntier
+    else:
+        return entier
+
+def decryption(key,string):
+    keyLenght = len(key)-1
+    keyCount = 0
+    decryptionList = []
+    for x in range(0,len(string)):
+        if(ord(string[x]) != ascii_number_diese):
+            decrypt = ord(string[x])-ord(key[Keycount])
+            decrypt = check_intervalle_minimum(decrypt)
+            decryptionList.append(chr(decrypt))
+            if(keyCount>= keyLenght):
+                keyCount = 0
+            else: 
+                keyCount+=1 
 key = "bonjour"
 string1 = "daehli#1.1.1.127#1234"
 encryption(key,string1)
