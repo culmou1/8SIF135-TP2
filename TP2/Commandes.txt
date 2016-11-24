@@ -17,12 +17,18 @@ Vous devez faire attention avec les tickets envoyée en paramètre.
 
 Vous devez mettre des `\` devant les `"`,`$`et `'`
 
-### Exemple
+---Exemples---
 
 ```python
-"Je Suis un \$"
+"Je suis un \$"
 
 "Je suis un \" dans une string"
 
-"Je suis un \' dans un string"
+"Je suis un \' dans une string"
 ```
+
+Nous avons aussi un Github
+
+https://github.com/daehli/8SIF135-TP2
+
+Le README est plus jolie !
