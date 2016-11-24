@@ -117,7 +117,7 @@ print("Encryption avec la cle tgt {}\n".format(encryptTGT))
 encryptClieny = simple_encryption("987654321",encryptTGT)
 
 print("Encryption avec la cle client {} \n".format(encryptClieny))
-"""
+
 decryptclient = decryption("8r$iqp!.Q","Cz0x+\'D_&iGU>IIXQNi<UDOPT`1nJT3KMQ^")
 
 print("Decryption avec la cle client {}\n".format(decryptclient))
@@ -126,4 +126,4 @@ print("Decryption avec la cle client {}\n".format(decryptclient))
 
 #print("Decryption avec la cle TGt {}\n".format(decryptTgt))
 
-#"""
+"""
