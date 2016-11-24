@@ -33,7 +33,7 @@ Nous avons mis une durée de 3600 secondes par sessions
 
 Vous devez faire attention avec les tickets envoyée en paramètre.
 
-Vous devez mettre des `\` devant les `"`,`$`et `'`
+Vous devez mettre des `\` devant les `"` et `$`
 
 ### Exemple
 
