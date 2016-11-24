@@ -1,0 +1,28 @@
+---AS---
+python3 as.py -as daehli#127.1.1.1#TGS1
+
+---TGS---
+
+python3 tgt.py -tgt daehli#127.1.1.1#V1#TicketTGT
+
+---Serveur---
+
+python3 serveur.py -serveur daehli#127.1.1.1#V1#TICKETSERVEUR
+
+---Précision---
+
+Nous avons mis une durée de 3600 secondes par session
+
+Vous devez faire attention avec les tickets envoyée en paramètre.
+
+Vous devez mettre des `\` devant les `"`,`$`et `'`
+
+### Exemple
+
+```python
+"Je Suis un \$"
+
+"Je suis un \" dans une string"
+
+"Je suis un \' dans un string"
+```
