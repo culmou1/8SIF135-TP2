@@ -44,16 +44,18 @@ session = float(timestampTGS)+float(dureeTGS)
 print("Now : {} Session : {} \n".format(now,session))
 
 if(float(session) < now):
-    print("Fuck You for Encryption !")
+    print("Le ticket est expire\n")
     sys.exit(0)
 else:
     identificationServeurTicket = reg[1]
 
-    print("Identification Client Normal {}\nIdentification Client Ticket {}\n".format(identificationServeur,identificationServeurTicket))
-    if(identificationServeurTicket == identificationServeur):
-        encryp = encryption(serverKey,messageNotCrypt)
-        print("L\'adresse serveur est identique entre le ticket et l'adresse reçu en ligne de commande\n")
+    print("Identification Client Normal {}\nIdentification Client Ticket {}\n".format(adresseClient,identificationServeurTicket))
+    if(identificationServeurTicket == adresseClient):
+        print("OK\n")
     else:
+        print("NON\n")
         print("L\'adresse client est différente entre le ticket et l'adresse reçu en ligne de commande\n")
         sys.exit(0)
+
+
 "Cz0x+'D_&iGU>IIXQNi<UDOPT`0oPX3KMQ^"

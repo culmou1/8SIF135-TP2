@@ -1,13 +1,13 @@
 ---AS---
-python3 as.py -as daehli#127.1.1.1#TGS1
+python3 as.py -as "daehli#127.1.1.1#TGS1"
 
 ---TGS---
 
-python3 tgt.py -tgt daehli#127.1.1.1#V1#TicketTGT
+python3 tgs.py -tgs "daehli#127.1.1.1#V1#TicketTGT"
 
 ---Serveur---
 
-python3 serveur.py -serveur daehli#127.1.1.1#V1#TICKETSERVEUR
+python3 serveur.py -serveur "daehli#127.1.1.1#V1#TICKETSERVEUR"
 
 ---Précision---
 
@@ -24,7 +24,6 @@ Vous devez mettre des `\` devant les `"`,`$`et `'`
 
 "Je suis un \" dans une string"
 
-"Je suis un \' dans une string"
 ```
 
 Nous avons aussi un Github

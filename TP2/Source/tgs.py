@@ -5,7 +5,7 @@ from utils import fileToDict, decryption,normalizeString,encryption
 import sys
 import time
 parser = argparse.ArgumentParser()
-parser.add_argument("-tgt","--ticket-granting-service")
+parser.add_argument("-tgs","--ticket-granting-service")
 args = parser.parse_args()
 print(args)
 string = args.ticket_granting_service
@@ -51,7 +51,7 @@ session = float(timestampTGS)+float(dureeTGS)
 print("Now : {} Session : {} \n".format(now,session))
 
 if(float(session) < now):
-    print("Fuck You for Encryption !")
+    print("Le ticket est expire\n")
     sys.exit(0)
 else:
     print("Le message n'est pas encore crypter : {0} \n".format(messageNotCrypt))

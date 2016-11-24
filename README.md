@@ -10,20 +10,20 @@ Vous devez avoir python3 d'installé sur l'ordinateur
 
 ````python
 
-python3 as.py -as daehli#1.1.1.127#TGS1
+python3 as.py -as "daehli#127.0.0.1#TGS1"
 
 ```
 
 ### TGS
 
 ```python
-python3 tgt.py -tgt daehli#1.1.1.127#V1#TicketTGT
+python3 tgs.py -tgs "daehli#127.0.0.1#V1#TicketTGT"
 
 ```
 ### Serveur
 
 ```python
-python3 serveur.py -serveur daehli#1.1.1.127#V1#TICKETSERVEUR
+python3 serveur.py -serveur "daehli#127.0.0.1#V1#TICKETSERVEUR"
 ```
 
 
@@ -42,5 +42,4 @@ Vous devez mettre des `\` devant les `"`,`$`et `'`
 
 "Je suis un \" dans une string"
 
-"Je suis un \' dans une string"
 ```
