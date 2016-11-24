@@ -38,9 +38,9 @@ Vous devez mettre des `\` devant les `"`,`$`et `'`
 ### Exemple
 
 ```python
-"Je Suis un \$"
+"Je suis un \$"
 
 "Je suis un \" dans une string"
 
-"Je suis un \' dans un string"
+"Je suis un \' dans une string"
 ```
